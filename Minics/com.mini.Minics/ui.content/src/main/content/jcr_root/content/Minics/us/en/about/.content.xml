@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-11-16T11:04:06.363+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Minics/settings/wcm/templates/minicstemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="about"
+        sling:resourceType="Minics/components/structure/minics_homepage">
+        <root jcr:primaryType="nt:unstructured">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <about_section
+                    jcr:created="{Date}2021-11-15T16:38:37.889+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-11-15T16:38:37.889+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Minics/components/content/customcomponent/about-section"/>
+            </responsivegrid>
+            <header_section
+                jcr:lastModified="{Date}2021-11-16T11:04:06.357+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Minics/components/content/customcomponent/header-section">
+                <apps jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        href="/content/Minics/us/en/minicshomepage"
+                        title="Home"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        href="/content/Minics/us/en/about"
+                        title="About"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        href="/content/Minics/us/en/products"
+                        title="Products"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        href="/content/Minics/us/en/whyus"
+                        title="Why Us"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        href="/content/Minics/us/en/testimonial"
+                        title="Testimonial"/>
+                </apps>
+                <field jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        href="/content/Minics/us/en/minicshomepage"
+                        image="/content/dam/Minics/minicsimages/phone-16.png"
+                        title="Call:+01123455678990"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        href="/content/Minics/us/en/minicshomepage"
+                        image="/content/dam/Minics/minicsimages/envelope-closed-16.png"
+                        title="Email:demo@gmail.com"/>
+                </field>
+            </header_section>
+        </root>
+    </jcr:content>
+</jcr:root>

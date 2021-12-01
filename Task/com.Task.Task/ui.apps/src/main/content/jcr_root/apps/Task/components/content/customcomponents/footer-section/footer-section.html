@@ -1,0 +1,37 @@
+<!-- footer section start -->
+<sly data-sly-use.tabs1="com.Task.core.models.NestedMultifield">
+<sly data-sly-list.obj = "${tabs1.links}"> Hello </div>
+	<div class="layout_padding footer_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div><img src="/content/dam/Task/adsiterimages/footer-logo.png"></div>
+					<p class="dolor_text" >${tabs1.dolartext}</p>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<h1 class="quick_text">Quick links</h1>
+
+					<div class="chevron_arrow" data-sly-list.obj = "${tabs1.links}" ><img src="${obj.image}"><span class="padding-left" data-sly-list.obj1 = "${tabs1.app}" >${obj1.description}</span></div>
+
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<h1 class="subscribe_text">Subcribe email</h1>
+					<p class="ipsum_text"></p>
+					<input type="text" class="email_text" placeholder="Your Email" name="Name">
+					<button class="submit_text">Submit</button>
+				</div>
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<h1 class="quick_text">Contact Us</h1>
+
+					<div class="map_flag" data-sly-list.obj3 = "${tabs1.contact}"><img src="${obj3.image}"><span class="padding-left">${obj3.title}</span></div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+    </sly>
+	<!-- footer section end -->
+	<!-- copyright section start -->
+    <div class="copyright">
+    	<p class="copyright_text">2019 All Rights Reserved. Design By <a href="https://html.design"> Free Html Templates</p>
+    </div>
